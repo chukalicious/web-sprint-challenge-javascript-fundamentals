@@ -60,7 +60,7 @@ console.log(populationTotal);
   * The consume function should return the invocation of cb, passing a and b into cb as arguments
 */
 
-function consume(a, b, cb) {
+function consume(a, b, cb) { //this works when I enter it directly on the console
   return cb(a, b)
 }
 
@@ -70,15 +70,15 @@ function consume(a, b, cb) {
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
-function add(a, b) {
+function add(a, b) {//this works when I enter it directly on the console
   return a + b
 }
 
-function multiply(a, b) {
+function multiply(a, b) {//this works when I enter it directly on the console
   return a * b
 }
 
-function greeting (firstName, lastName) {
+function greeting (firstName, lastName) {//this works when I enter it directly on the console
   return `Hello ${firstName} ${lastName}, nice to meet you`
 }
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
