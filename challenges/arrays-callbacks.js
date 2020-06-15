@@ -14,6 +14,7 @@ const zooAnimals = [
   { animal_name: "Hawk-eagle, crowned", population: 10, scientific_name: "Spizaetus coronatus", state: "Florida" },
   { animal_name: "Australian pelican", population: 5, scientific_name: "Pelecanus conspicillatus", state: "West Virginia" },
 ];
+console.log(zooAnimals); 
 
 /* Request 1: .forEach()
 
@@ -30,7 +31,7 @@ The zoos need a list of all their animal's names (animal_name only) converted to
 
 */
 
-const lowCaseAnimalNames
+const lowCaseAnimalNames; 
 console.log(lowCaseAnimalNames);
 
 /* Request 3: .filter() 
